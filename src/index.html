@@ -44,6 +44,16 @@
 		</li>
 	</ul>
 </nav>
+<!-- jQuery CDN -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<!-- Plugin connect -->
 <script src="/dist/js/luna-menu.min.js"></script>
-</body>
+
+<script>
+	$(document).ready(function(e){
+		$(".luna").lunaMenu({
+			vertical : false
+		});
+	});
+</script></body>
 </html>
